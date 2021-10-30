@@ -1,0 +1,266 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+	width: 960px;
+/*	display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+.title {
+  background: url(../img/mainbg.png);
+  background-size: cover;
+  background-position: center;
+  height: 450px;  
+  color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu {
+	height: 80px;
+	border: solid #efefef;
+	font-size: 21px;
+    display: flex;
+    align-items: center;	
+}
+.menu div {
+	width: 35%;
+}
+.logo img {
+    width: 50%;
+    object-fit: cover;
+}
+.navigation-container {
+
+}
+.navigation {
+    display: flex;	
+}
+.navigation li {
+    margin-left: 54px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;	
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;	
+}
+.img img{
+	width: 25%;
+}
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+
+
+
+/*
+
+---------------------*/
+.l_box {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 230, 230);
+}
+
+.s_box_img {
+    width: 50%;
+}
+
+.s_box_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.s_box_text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s_box_text div {
+    width: 80%;
+}
+
+
+/*
+---------------------*/
+.img_piza {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.piza2 {
+	margin-right: 32px;
+	margin-left: 32px;
+}
+
+/*
+---------------------*/
+.btn {
+	display: block;
+    width: 300px;
+	height: 60px;
+    margin: auto;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+
+/*
+---------------------*/
+.access {
+	background-color:#fafafa;
+	padding-top:64px;
+	padding-bottom:80px;
+}
+.section-title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+.section-name {
+    margin-bottom: 64px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.map {
+    max-width: 100%;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+iframe {
+    position: absolute;
+}
+.access-wrapper {
+    width: 600px;
+    margin: auto;
+    padding-top: 64px;
+}
+.access-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 40px;
+    font-size: 15px;
+    background-color: #fafafa;
+}
+.access-title {
+    width: 185px;
+    padding: 0 0 24px 0;
+    margin: 0 0 0 20px;
+    font-weight: normal;
+    text-align: left;
+}
+.access-item {
+    width: 350px;
+    padding: 0 0 24px 0;
+    text-align: left;
+}
+
+
+.contact {
+	padding:64px 0 64px;
+}
+.form-wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+.form-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.form-title {
+    width: 118px;
+    padding-top: 8px;
+    margin-right: 96px;
+    font-weight: normal;
+    text-align: left;
+}
+.form-item {
+    width: 386px;
+    margin-bottom: 24px;
+    text-align: left;
+}
+.form-parts {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border: solid 1px #c9c9c9;
+    font-size: 1.6rem;
+}
+
+.footer{
+    padding: 24px 0;
+    background-color: #707070;
+    text-align: center;
+}
+
+.footer .wrapper{
+    position: relative;
+    
+}
+.btn-pagetop{
+    position: absolute;
+     top:-60px;
+     right: 0;
+     display: block;
+     width: 90px;
+     height: 30px;
+     background-color: #707070;
+	 color: #fff;
+     text-decoration: none;
+}
+
+.icon-up{
+    display: block;
+     padding: 10px 0;
+     color: #fff;
+     font-size: 2.4rem;
+}
+
+.copyrights{
+    color: #fff;
+    font-size: 1.4rem;
+}
